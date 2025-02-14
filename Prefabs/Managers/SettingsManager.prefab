@@ -1,0 +1,229 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &1605641904881117345
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1605641904881117346}
+  - component: {fileID: 8410128825360213427}
+  m_Layer: 0
+  m_Name: SettingsManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1605641904881117346
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1605641904881117345}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 6603205837293213633}
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &8410128825360213427
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1605641904881117345}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 15c7db209b333124d97d44c4b22f7991, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  foodSettings: {fileID: 5803254802867130117}
+--- !u!1 &8703359339549111851
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 6603205837293213633}
+  - component: {fileID: 5803254802867130117}
+  m_Layer: 0
+  m_Name: FoodSettings
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &6603205837293213633
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8703359339549111851}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1605641904881117346}
+  m_RootOrder: -1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &5803254802867130117
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8703359339549111851}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ff409ab6e8a16854bb6f971c55fa98e0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  foodConfigs:
+  - name: "\u041D\u0430\u043F\u0456\u0439 CocaCola 0.5\u043B"
+    foodCode: 0
+    foodType: 0
+    price: 35
+    icon: {fileID: 21300000, guid: afdbeb1b863a38a4096e7f809e4909ce, type: 3}
+  - name: "\u041D\u0430\u043F\u0456\u0439 Pepsi 0.5\u043B"
+    foodCode: 1
+    foodType: 0
+    price: 37
+    icon: {fileID: 21300000, guid: 9102e816be2849f4e98d932b2168b0d4, type: 3}
+  - name: "\u041D\u0430\u043F\u0456\u0439 Sprite 0.5\u043B"
+    foodCode: 2
+    foodType: 0
+    price: 32
+    icon: {fileID: 21300000, guid: 57c478405a1da3c47b986a8d06f5f0a2, type: 3}
+  - name: "\u041D\u0430\u043F\u0456\u0439 Fanta 0.5\u043B"
+    foodCode: 3
+    foodType: 0
+    price: 36
+    icon: {fileID: 21300000, guid: 57c478405a1da3c47b986a8d06f5f0a2, type: 3}
+  - name: "\u0421\u0456\u043A \u0421\u0430\u0434\u043E\u0447\u043E\u043A 0.5\u043B"
+    foodCode: 4
+    foodType: 0
+    price: 30
+    icon: {fileID: 21300000, guid: 93732323dd5cdf348ab51557d2092c17, type: 3}
+  - name: "\u0421\u0456\u043A \u0432\u0438\u043D\u043E\u0433\u0440\u0430\u0434\u043D\u0438\u0439
+      0.5\u043B"
+    foodCode: 5
+    foodType: 0
+    price: 30
+    icon: {fileID: 21300000, guid: 3b7786a5e731b2048a235ff5d1f36e42, type: 3}
+  - name: "\u0412\u043E\u0434\u0430 \u043F\u0438\u0442\u043D\u0430 0.5\u043B"
+    foodCode: 6
+    foodType: 0
+    price: 25
+    icon: {fileID: 21300000, guid: 93732323dd5cdf348ab51557d2092c17, type: 3}
+  - name: "\u041C\u043E\u0445\u0456\u0442\u043E 0.5\u043B"
+    foodCode: 7
+    foodType: 0
+    price: 50
+    icon: {fileID: 21300000, guid: 7fa6814cdfaab734fbcf4a22a9fb5ffd, type: 3}
+  - name: "\u0410\u043F\u0435\u043B\u044C\u0441\u0438\u043D\u043E\u0432\u0438\u0439
+      \u0441\u0456\u043A 0.5\u043B"
+    foodCode: 8
+    foodType: 0
+    price: 42
+    icon: {fileID: 21300000, guid: b91e233d999817f4389792d906142968, type: 3}
+  - name: "\u041B\u0430\u0442\u0442\u0435 0.3\u043B"
+    foodCode: 9
+    foodType: 0
+    price: 39
+    icon: {fileID: 21300000, guid: fb307ea4dcc8d844a81dc0b81c06dddc, type: 3}
+  - name: "\u0415\u0441\u043F\u0440\u0435\u0441\u043E"
+    foodCode: 10
+    foodType: 0
+    price: 21
+    icon: {fileID: 21300000, guid: d2607f731ec602c408a9a88c3e30fc3f, type: 3}
+  - name: "\u0427\u0430\u0439 \u0437\u0435\u043B\u0435\u043D\u0438\u0439 0,3\u043B."
+    foodCode: 11
+    foodType: 0
+    price: 15
+    icon: {fileID: 21300000, guid: 3b7786a5e731b2048a235ff5d1f36e42, type: 3}
+  - name: "\u0427\u0430\u0439 \u0447\u043E\u0440\u043D\u0438\u0439 0,3\u043B."
+    foodCode: 12
+    foodType: 0
+    price: 16
+    icon: {fileID: 21300000, guid: fe35b0bdab86c104ba1d8f5ab7873483, type: 3}
+  - name: "\u0422\u043E\u0440\u0442 \"\u041D\u0430\u043F\u043E\u043B\u0435\u043E\u043D\"
+      100\u0433\u0440."
+    foodCode: 13
+    foodType: 1
+    price: 55
+    icon: {fileID: 21300000, guid: b91e233d999817f4389792d906142968, type: 3}
+  - name: "\u041C\u043B\u0438\u043D\u0446\u0456 100\u0433\u0440."
+    foodCode: 14
+    foodType: 1
+    price: 35
+    icon: {fileID: 21300000, guid: 3b7786a5e731b2048a235ff5d1f36e42, type: 3}
+  - name: "\u0427\u0456\u0437\u043A\u0435\u0439\u043A 200\u0433\u0440."
+    foodCode: 15
+    foodType: 1
+    price: 63
+    icon: {fileID: 21300000, guid: 7fa6814cdfaab734fbcf4a22a9fb5ffd, type: 3}
+  - name: "\u041B\u0438\u043C\u043E\u043D\u043D\u0435 \u0442\u0456\u0441\u0442\u0435\u0447\u043A\u043E
+      200\u0433\u0440."
+    foodCode: 16
+    foodType: 1
+    price: 75
+    icon: {fileID: 21300000, guid: ef5d51635942c194f9d37178ed67c9d0, type: 3}
+  - name: "\u0422\u043E\u0440\u0442 \"\u0421\u043F\u0430\u0440\u0442\u0430\u043A\"
+      100\u0433\u0440."
+    foodCode: 17
+    foodType: 1
+    price: 85
+    icon: {fileID: 21300000, guid: fb307ea4dcc8d844a81dc0b81c06dddc, type: 3}
+  - name: "\u0422\u043E\u0440\u0442 \"\u0412\u0430\u0444\u0435\u043B\u044C\u043D\u0438\u0439\"
+      100\u0433\u0440."
+    foodCode: 18
+    foodType: 1
+    price: 65
+    icon: {fileID: 21300000, guid: 93732323dd5cdf348ab51557d2092c17, type: 3}
+  - name: "\u041F\u0456\u0446\u0446\u0430 \"\u0411\u0430\u0432\u0430\u0440\u0456\u044F\""
+    foodCode: 19
+    foodType: 2
+    price: 155
+    icon: {fileID: 21300000, guid: fb307ea4dcc8d844a81dc0b81c06dddc, type: 3}
+  - name: "\u041F\u0456\u0446\u0446\u0430 \"\u041C\u0430\u0440\u0433\u0430\u0440\u0438\u0442\u0430\""
+    foodCode: 20
+    foodType: 2
+    price: 130
+    icon: {fileID: 21300000, guid: d2607f731ec602c408a9a88c3e30fc3f, type: 3}
+  - name: "\u041F\u0430\u043D\u0456\u043D\u0456"
+    foodCode: 21
+    foodType: 2
+    price: 35
+    icon: {fileID: 21300000, guid: ef5d51635942c194f9d37178ed67c9d0, type: 3}
+  - name: "\u0421\u0435\u043D\u0434\u0432\u0456\u0447 \u0437 \u043B\u043E\u0441\u043E\u0441\u0435\u043C"
+    foodCode: 22
+    foodType: 2
+    price: 200
+    icon: {fileID: 21300000, guid: ef5d51635942c194f9d37178ed67c9d0, type: 3}
+  - name: "\u0421\u0435\u043D\u0434\u0432\u0456\u0447 \u0432\u0435\u0433\u0435\u0442\u0430\u0440\u0456\u0430\u043D\u0441\u044C\u043A\u0438\u0439"
+    foodCode: 23
+    foodType: 2
+    price: 100
+    icon: {fileID: 21300000, guid: 7fa6814cdfaab734fbcf4a22a9fb5ffd, type: 3}
+  - name: "\u041A\u0430\u0440\u0442\u043E\u043F\u043B\u044F \u0444\u0440\u0456"
+    foodCode: 24
+    foodType: 2
+    price: 55
+    icon: {fileID: 21300000, guid: fb307ea4dcc8d844a81dc0b81c06dddc, type: 3}
+  - name: "\u041A\u0430\u0440\u0442\u043E\u043F\u043B\u044F \u043F\u043E-\u0434\u043E\u043C\u0430\u0448\u043D\u044C\u043E\u043C\u0443"
+    foodCode: 25
+    foodType: 2
+    price: 80
+    icon: {fileID: 21300000, guid: fe35b0bdab86c104ba1d8f5ab7873483, type: 3}
